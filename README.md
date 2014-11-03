@@ -2,3 +2,5 @@ ex13
 ====
 
 Aspipo
+
+inicializar_ambiente(OBS0, DETSUJEIRA|DETMOVIMENTO|DETSENSORES, 0, APRIORI6, DESC0, FOLGA0, NULL, NULL);
