@@ -8,7 +8,7 @@
  {
    /*Declara as variaveis*/
 
-   int posicao, l;
+   int posicao, l, X;
    int d, e, leita, leitb, leitc;
    int esq, dir;
    int num_sala, num_sala_dir, num_sala_esq;
@@ -78,7 +78,8 @@
      cont=0;
 
      /*inicia um laco de X limpezas e andadas*/
-     while(cont<10){
+	 X=num_sala_dir-num_sala_esq+1;
+     while(cont<X){
          if(ler_sujeira()==1){
              if(ler_sujeira()==1){
                  aspirar();}}
